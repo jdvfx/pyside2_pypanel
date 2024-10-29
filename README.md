@@ -31,6 +31,7 @@ this updates $HOUDINI_PATH and add our houdini_tools directory<b>
 mkdir -p ~/houdini20.5/packages/
 touch ~/houdini20.5/packages/my_pythonpanel.json
 ```
+```
 {
     "env": [
         {
