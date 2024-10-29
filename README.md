@@ -3,10 +3,10 @@
 
 requirements:
 
-- linux
-- pyside2-uic
-- designer-qt5
-- houdini20.5
+- Linux
+- Pyside2-uic
+- QT designer 5
+- Houdini 20.5
 
 ## in this example, the panel is named: "my_pythonpanel"
 
