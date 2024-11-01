@@ -1,4 +1,3 @@
-
 # Create a Python Panel inside Houdini20.5
 
 requirements:
