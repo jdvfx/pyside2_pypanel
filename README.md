@@ -11,16 +11,16 @@ requirements:
 
 1) create a directory in your project files, eg:<br>
 ```
-mkdir -p /home/houdini_tools/my_pythonpanel/python3.11libs 
-mkdir -p /home/houdini_tools/my_pythonpanel/python_panels
+mkdir -p $HOME/houdini_tools/python3.11libs/my_pythonpanel
+mkdir -p $HOME/houdini_tools/python_panels
 ```
 
 ```
-/home/houdini_tools/
-    + my_pythonpanel
-        + python3.11libs
-        + python_panels
-            + my_pythonpanel.pypanel
+$HOME/houdini_tools/
+    + python3.11libs
+        + my_pythonpanel
+    + python_panels
+        + my_pythonpanel.pypanel
 ```
 
 3) create a "packages" directory and a .json inside<br>
@@ -35,7 +35,7 @@ touch ~/houdini20.5/packages/my_pythonpanel.json
     "env": [
         {
             "HOUDINI_PATH": {
-                "value": "$HOME/houdini_tools",
+                "value": "$HOME/$houdini_tools/my_pythonpanel/",
                 "method": "append"
             }
         }

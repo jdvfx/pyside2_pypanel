@@ -1,0 +1,11 @@
+{
+    "env": [
+        {
+            "HOUDINI_PATH": {
+                "value": "$HOME/houdini_tools/",
+                "method": "append"
+            }
+        }
+    ],
+    "process_order" : 3
+}
